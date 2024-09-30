@@ -1,0 +1,50 @@
+## LISTS (ordered, can be changed, and allows for duplicates)
+
+# Define list 'animals'
+animals = ["dog", "cat", "horse", "cheetah"]
+
+# Print elements of list from index 0 up to but excluding index 3
+print(animals[0:3])
+
+# Prints each element of list
+for animal in animals:
+    print(animal)
+
+# Boolean returned to indicate if element "cheetah" is in list
+print("cheetah" in animals)
+
+# Replace element at index 0 with "cheetah"
+animals[0] = "cheetah"
+
+# Prints each element of list
+for animal in animals:
+    print(animal)
+
+# Add new element to end of list
+animals.append("whale")
+
+# Remove element from list
+animals.remove("horse")
+
+# Add element at specified index
+animals.insert(0, "fox")
+
+# Sort elements of list in alphabetical order
+animals.sort()
+
+# Sort elements of list in reverse order of original list
+animals.reverse()
+
+# Shows index of specified element
+print(fruits.index("cat"))
+
+
+## SETS (unordered, immutable (can't change values), can add/remove, no duplicates allowed)
+
+# Define set
+animals = {"dog", "cat", "horse", "cheetah"}
+
+## TUPLES (ordered, unchangeable, allows for duplicates, faster than lists)
+
+# Define tuple
+animals = ("dog", "cat", "horse", "cheetah")
